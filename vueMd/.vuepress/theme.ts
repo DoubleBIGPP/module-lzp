@@ -115,12 +115,12 @@ export default hopeTheme({
   },
 
   encrypt: {
-    global: true,
-    admin: 'lzp123',
-    config: {
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
-    },
+    // global: true,
+    // admin: 'lzp123',
+    // config: {
+    //   "/demo/encrypt.html": ["1234"],
+    //   "/zh/demo/encrypt.html": ["1234"],
+    // },
   },
 
   plugins: {
