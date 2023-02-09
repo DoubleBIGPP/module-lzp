@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: Blog Home
-heroImage: /logo.svg
+heroImage: /logo.png
 heroText: The name of your blog
 tagline: You can put your slogan here
 heroFullScreen: true
@@ -33,7 +33,7 @@ projects:
     desc: Detailed description of friend
     link: https://link.to.your.friend
 
-  - icon: /logo.svg
+  - icon: /logo.png
     name: custom item
     desc: Detailed description of this custom item
     link: https://link.to.your.friend

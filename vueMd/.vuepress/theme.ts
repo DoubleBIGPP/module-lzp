@@ -20,7 +20,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "/logo.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
