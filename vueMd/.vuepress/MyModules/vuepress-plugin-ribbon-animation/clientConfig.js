@@ -1,4 +1,4 @@
-import Ribbon from "./bin copy/Ribbon.vue";
+import Ribbon from "./bin/Ribbon.vue";
 import { defineClientConfig } from '@vuepress/client'
 import { h,render,onMounted} from 'vue'
 export default defineClientConfig({
@@ -8,8 +8,6 @@ export default defineClientConfig({
   setup(){
     onMounted(() => {
         const app = document.querySelectorAll('#app')
-        console.log(app); 
-        app[0].style.position = 'relative'
         render(h(Ribbon),app[0])
       })
   },
