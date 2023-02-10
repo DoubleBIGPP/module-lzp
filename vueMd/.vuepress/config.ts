@@ -1,8 +1,11 @@
-import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-
-export default defineUserConfig({
+import animation from './MyModules/vuepress-plugin-ribbon-animation/config.js';
+export default {
   base: "/",
+
+  plugins: [
+    animation()
+  ],
 
   locales: {
     "/": {
@@ -20,4 +23,4 @@ export default defineUserConfig({
   theme,
 
   shouldPrefetch: false,
-});
+};
