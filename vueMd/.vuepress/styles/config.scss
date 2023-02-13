@@ -4,15 +4,19 @@ $colors: #c0392b, #d35400, #f39c12, #27ae60, #16a085, #2980b9, #8e44ad, #2c3e50,
 #app {
   position: relative;
 }
+.theme-container .no-sidebar {
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 2;
+}
 .theme-container .page.blog {
   background-color: rgba(255, 255, 255, 0.1);
-  z-index: 1;
+  z-index: 2;
 }
 .theme-container .page{
   background-color: rgba(255, 255, 255, 0.1);
-  z-index: 1;
+  z-index: 2;
 }
 .sidebar{
   background-color: rgba(255, 255, 255, 0.1);
-  z-index: 2;
+  z-index: 3;
 }
