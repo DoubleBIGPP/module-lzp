@@ -159,7 +159,7 @@
             // add stroke along with ribbon fill colors
             strokeSize: 0,
             // move ribbons vertically by a factor on page scroll
-            parallaxAmount: -0.5,
+            parallaxAmount: -0.1,
             // add animation effect to each ribbon section over time
             animateSections: true };
 
