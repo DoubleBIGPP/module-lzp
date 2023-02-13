@@ -6,7 +6,7 @@ export default defineClientConfig({
   },
   setup(){
     onMounted(() => {
-
+      new Ribbons();
     })
   },
   layouts: {},

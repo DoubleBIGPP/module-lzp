@@ -439,4 +439,3 @@
     // export
     return Factory;
 });
-new Ribbons();
