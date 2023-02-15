@@ -12,14 +12,20 @@ $colors: #c0392b, #d35400, #f39c12, #27ae60, #16a085, #2980b9, #8e44ad, #2c3e50,
   background-color: rgba(255, 255, 255, 0.1);
   z-index: 2;
 }
-.theme-container .page{
+.theme-container .page {
   background-color: rgba(255, 255, 255, 0.1);
   z-index: 2;
 }
-.sidebar{
+.sidebar {
   background-color: rgba(255, 255, 255, 0.1);
   z-index: 9;
 }
-.footer-wrapper{
+.footer-wrapper {
   z-index: 10;
+}
+.code-demo-codes > div[class*=language-] button.copy-code-button {
+  right: 37px;
+  width: 38px;
+  height: 38px;
+  border-radius: 10%;
 }
