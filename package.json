@@ -16,6 +16,7 @@
     "vuepress-theme-hope": "2.0.0-beta.171"
   },
   "dependencies": {
-    "element-plus": "^2.2.30"
+    "element-plus": "^2.2.30",
+    "vuepress-plugin-ribbon-animation-lzp": "^1.0.3"
   }
 }

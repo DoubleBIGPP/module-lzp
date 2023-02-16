@@ -1,5 +1,5 @@
 import theme from "./theme.js";
-import animation from './MyModules/vuepress-plugin-ribbon-animation/config.js';
+import animation from 'vuepress-plugin-ribbon-animation-lzp';
 export default {
   base: "/",
 
